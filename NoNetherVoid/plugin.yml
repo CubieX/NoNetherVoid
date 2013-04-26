@@ -1,0 +1,19 @@
+name: NoNetherVoid
+main: com.github.CubieX.NoNetherVoid.NoNetherVoid
+author: CubieX
+softdepend: [PermissionsEx, zPermissions, bPermissions, PermissionsBukkit]
+version: 1.0.0
+description: Prevents accessing the roof section of the nether without permission
+
+commands:
+    nnv:
+      description: Using NoNetherVoid
+      usage: /nnv version | reload
+
+permissions:
+    nonethervoid.bypass:
+        description: Allows access to the roof section in the nether
+        default: op
+    nonethervoid.admin:
+        description: Allows all NNV commands. e.g. reloading.
+        default: op

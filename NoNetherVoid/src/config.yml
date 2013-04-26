@@ -1,0 +1,4 @@
+# do NOT change the config version!
+config_version: 1
+# enable debug output
+debug: false
